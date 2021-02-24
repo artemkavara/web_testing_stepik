@@ -16,5 +16,6 @@ To run tests from ```test_<name>``` files:
 To run tests from ```test_locale``` folder:
 + download files ```conftest.py```, ```list_lang.txt``` and ```test_items.py```
 + run command ```pytest -s --language=<lang> test_items.py```
+
 All available languages are located in file ```list_lang.txt```, so it is an obligatory
 to download it before running test. The list of languages was parsed in file ```parse_lang.py```.
