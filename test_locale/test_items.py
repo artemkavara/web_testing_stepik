@@ -13,7 +13,7 @@ def test_existance_of_basket_button(browser):
     browser.get(link)
     #to check workability of language changing
     #by default this line of code is commented so you can check button search first
-    time.sleep(30)
+    #time.sleep(30)
     #get list of buttons with the locator
     basket_button = WebDriverWait(browser, 5).until(
         EC.presence_of_element_located(LOC_ADD_TO_BASKET_BUTTON))

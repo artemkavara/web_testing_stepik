@@ -12,7 +12,7 @@ with open("list_lang.txt", "r") as f:
 #initialize parameter
 def pytest_addoption(parser):
     parser.addoption("--language", action = "store", 
-                    default = "eng", help = "Enter language:")
+                    default = "en-gb", help = "Enter language:")
 
 #set browser configurations
 @pytest.fixture(scope = "function")
